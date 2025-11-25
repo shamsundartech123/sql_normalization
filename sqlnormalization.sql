@@ -35,9 +35,6 @@ CREATE TABLE order_items (
 2. Example of 3NF
 -----------------------------------------------------------*/
 
-/* ❌ Problem in 2NF version:
-customer_name may determine customer_city → Transitive Dependency
-*/
 
 CREATE TABLE customers (
     customer_id INT PRIMARY KEY,
