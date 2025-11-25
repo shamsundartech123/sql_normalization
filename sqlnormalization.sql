@@ -2,10 +2,6 @@
 1. Normalize a table with repeating groups into 2NF
 -----------------------------------------------------------*/
 
-/* ❌ Unnormalized Table (Repeating Groups)
-orders_raw(order_id, customer_name, product1, price1, product2, price2, ...)
-*/
-
 /* ✅ 1NF: Remove repeating groups */
 CREATE TABLE orders_1nf (
     order_id INT,
